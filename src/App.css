@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background: rgb(238,242,243);
+  background: -moz-linear-gradient(0deg, rgba(238,242,243,1) 0%, rgba(142,158,171,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(238,242,243,1) 0%, rgba(142,158,171,1) 100%);
+  background: linear-gradient(0deg, rgb(81, 141, 156) 0%, rgba(142,158,171,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef2f3",endColorstr="#8e9eab",GradientType=1);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #203A43;
+}
+
+.App-link {
+  color: #0F2027;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.crop {
+  height: 460px;
+  overflow: hidden;
+}
+
+.crop img {
+  height: 100%;
+  width: 460px;
+}
+
+.fill {
+  padding: 0;
+  margin: 0;
+}
+
+.int-ctr {
+  margin: 0 auto;
+}
+
+input[type="text"]::placeholder {  
+  /* Firefox, Chrome, Opera */ 
+  text-align: center; 
+}
+
+input[type="text"]:-ms-input-placeholder {  
+  /* IE */ 
+  text-align: center; 
+}
+
+.input-pad {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.float{
+	position:fixed;
+	width:180px;
+	height:60px;
+  top:40px;
+  color: #0F2027;
+	border-radius:50px;
+  font-size: 18px;
+  left: 50%;
+  margin-left: -90px;
+}
+
